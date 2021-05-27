@@ -98,11 +98,9 @@ function draw() {
       backgr.velocityX = 0;
       player.velocityY = 0;
       
-     obstacleGroup.setLifetimeEach(-1);
-     obstacleGroup.setVelocityXEach(0);
-
-     foodGroup.setLifetimeEach(-1);
-     foodGroup.setVelocityXEach(0);
+     foodGroup.destroyEach();
+     obstacleGroup.destroyEach();
+    player.visible=false;
   }
 
 
