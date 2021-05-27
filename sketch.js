@@ -100,7 +100,7 @@ function draw() {
       
      foodGroup.destroyEach();
      obstacleGroup.destroyEach();
-    player.visible=false;
+      player.destroy();
   }
 
 
