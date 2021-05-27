@@ -109,6 +109,7 @@ function draw() {
   drawSprites();
 
   fill("red");
+  textSize(18);
   text("Score: "+score,400,100);
 }
 
